@@ -1,0 +1,146 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+/* @media (min-width: 575.98px) and (max-width:767.98px) {  } */
+
+/* // Small devices (landscape phones, less than 768px) */
+/* @media (min-width:768px) and (max-width: 991.98px) { } */
+
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px){  
+    .menu ul li {
+        padding: 0 15px;
+    }
+
+    .menu ul li a {
+        letter-spacing: 3px;
+    }
+
+    .h_t_l_icon {
+        width: 6%;
+    }
+
+    .phn_no {
+        width: 92%;
+    }
+
+    .b_details p:first-child {
+        font-size: 2.2rem;
+    }
+
+    .b_details h1 {
+        font-size: 4rem;
+    }
+
+    .b_details .last-child {
+        font-size: 1.25rem;
+    }
+
+    .banner_calc {
+        padding: 5px 0;
+    }
+
+    .leaf1 {
+        top: -52px;
+    }
+
+    .leaf2 {
+        position: absolute;
+        right: 7px;
+        bottom: 32px;
+    }
+
+    .leaf_2_pic {
+        width:45%;
+    }
+
+    .pasta {
+        top: 23px;
+        left: 4px;
+    }
+
+    .pasta_pic {
+        width:65%;
+    }
+
+    .tomato {
+        top: 366px;
+        left: 3px;
+    }
+
+    .tomato_pic {
+        width:65%;
+    }
+
+    .left p {
+        font-family: FrederickatheGreat-Regular !important;
+        font-size: 1.02rem !important;
+        margin-top: 16px;
+    }
+
+    .right p {
+        font-family: FrederickatheGreat-Regular !important;
+        font-size: 3.2rem !important;
+    }
+
+    .button {
+        padding: 7px 32px;
+        font-size: 22px;
+    }
+
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+    .h_t_l_icon {
+        width: 6%;
+    }
+
+    .phn_no {
+        width: 92%;
+    }
+    .b_details h1 {
+        font-size: 4.75rem;
+    }
+
+    .b_details p:first-child {
+        font-size: 2.5rem;
+    }
+
+    .b_details .last-child {
+        font-size: 1.49rem;
+        padding-bottom: 20px;
+    }
+
+    .menu ul li {
+        padding: 0px 20px;
+    }
+
+    .menu ul li a{
+        letter-spacing: 3px;
+    }
+
+    .left p {
+        font-size: 1.2rem !important;
+    }
+
+    .button {
+        padding: 9px 42px;
+        font-size: 23px;
+    }
+
+    .pasta {
+        left: -52px
+    }
+
+    .leaf2 {
+    right: 20px;
+    bottom: 4px;
+    }
+
+    .tomato {
+        top: 430px;
+        left: -50px;
+    }
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+/* @media (min-width: 1400px) and (max-width:1499.98px){  } */
